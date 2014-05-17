@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:text="FPS: 60" />
+    	<ImageView
+		android:id="@+id/bgColor"
+		android:layout_width="fill_parent"
+		android:layout_height="60dip" />
+        <TextView
+        android:id="@+id/textViewMessage3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:text="Color: WHITE" />
+     <TextView
+        android:id="@+id/textViewMessage2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:text="Message" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Select Frame Rate"
+        android:onClick="getFPS" />
+         <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Choose Background Color"
+        android:onClick="chooseColor" />
+            <Button
+        android:id="@+id/select"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Select File"
+        android:onClick="getMessage" />
+
+</LinearLayout>
